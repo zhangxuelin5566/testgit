@@ -1,0 +1,74 @@
+@import '../../assets/scss/base/app-base.scss';
+.login_wrapper {
+    background: url('../../assets/img/login/login-bg.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+
+    .login_container {
+        padding-top: 11vh;
+    }
+    .login_box {
+        width: 410px;
+        padding: 20px;
+        box-shadow: $c-box-shadow;
+        -webkit-box-shadow: $c-box-shadow;
+        -moz-box-shadow:$c-box-shadow;
+        background: $c-color-white;
+
+        hr {
+            padding-bottom: 5px;
+        }
+    }
+    .login_header {
+        margin-bottom: 25px;
+
+        img {
+            width: 32px;
+            height: 32px;
+            background: $c-color-deep;  
+
+            &:hover {
+                transition: all .5s ease-in-out;
+                -webkit-transition: all 0.5s ease-in-out;
+                -moz-transition: all .5s ease-in-out;
+                -o-transition: all .5s ease-in-out;
+                -ms-transition: all 0.5s ease-in-out;
+                transform: rotateY(-360deg);
+                -webkit-transform: rotateY(-360deg);
+                -moz-transform: rotateY(-360deg);
+                -o-transform: rotateY(-360deg);
+                -ms-transform: rotateY(-360deg);
+            }
+        }
+        h3 {
+            display: inline;
+            color: #333333;
+            vertical-align: middle;
+        }
+    }
+    .form-group {
+        margin-top: 28px;
+
+        button {
+            width: 100%;
+            padding: 10px;
+        }
+    }
+    .form-control {
+        padding: 10px;
+    }
+    .copy_right {
+        color: #555555;
+        height: 10px;
+    }
+    .login_desc{
+        width: 410px;
+        font-size: 13px;
+        color: #fefefe;
+        margin: 8px auto 0;
+        filter: alpha(opacity=8);
+        -moz-opacity: .8;
+        opacity: .8;
+    }
+}
